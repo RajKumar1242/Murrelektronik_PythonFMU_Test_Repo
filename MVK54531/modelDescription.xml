@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription fmiVersion="3.0" modelName="MVK54531" instantiationToken="00bb0a87-ee03-11ef-87df-bc6ee2cec15f" generationTool="PythonFMU3 0.1.16" generationDateAndTime="2025-02-18T14:16:53+00:00" variableNamingConvention="structured" description="A simple description of DIO 8 module from Murrelektronik catalogue" author="Raj Kumar">
+	<CoSimulation needsExecutionTool="true" canHandleVariableCommunicationStepSize="true" canBeInstantiatedOnlyOncePerProcess="false" canGetAndSetFMUState="false" canSerializeFMUState="false" modelIdentifier="MVK54531" canNotUseMemoryManagementFunctions="true"/>
+	<LogCategories>
+		<Category name="logStatusWarning" description="Log messages with fmi3Warning status."/>
+		<Category name="logStatusDiscard" description="Log messages with fmi3Discard status."/>
+		<Category name="logStatusError" description="Log messages with fmi3Error status."/>
+		<Category name="logStatusFatal" description="Log messages with fmi3Fatal status."/>
+		<Category name="logAll" description="Log all messages."/>
+	</LogCategories>
+	<ModelVariables>
+		<Float64 name="time" valueReference="0" causality="independent"/>
+		<Float64 name="Sensor_Voltage" valueReference="1" causality="input" start="24"/>
+		<Float64 name="Actuator_Voltage" valueReference="2" causality="input" start="24"/>
+		<Boolean name="PinBased" valueReference="3" description="Pin based mapping of inputs" causality="parameter" variability="tunable" start="true"/>
+		<Boolean name="PortBased" valueReference="4" causality="parameter" variability="tunable" start="false"/>
+		<Boolean name="ComplexBased" valueReference="5" causality="parameter" variability="tunable" start="false"/>
+		<Int32 name="X0_2" valueReference="6" causality="output"/>
+		<Int32 name="X0_4" valueReference="7" causality="output"/>
+		<Int32 name="X1_2" valueReference="8" causality="output"/>
+		<Int32 name="X1_4" valueReference="9" causality="output"/>
+		<Int32 name="X2_2" valueReference="10" causality="output"/>
+		<Int32 name="X2_4" valueReference="11" causality="output"/>
+		<Int32 name="X3_2" valueReference="12" causality="output"/>
+		<Int32 name="X3_4" valueReference="13" causality="output"/>
+		<Float64 name="LED_Green" valueReference="14" causality="output"/>
+		<Float64 name="LED_Red" valueReference="15" causality="output"/>
+		<Float64 name="LED_Off" valueReference="16" causality="output"/>
+		<Int32 name="outByte1" valueReference="17" causality="output"/>
+		<Int32 name="outByte2" valueReference="18" causality="output"/>
+		<Int32 name="qualifier_di_8_byte1" valueReference="19" causality="output"/>
+		<Int32 name="qualifier_di_8_byte2" valueReference="20" causality="output"/>
+		<Int32 name="qualifier_do_8_byte1" valueReference="21" causality="output"/>
+		<Int32 name="qualifier_do_8_byte2" valueReference="22" causality="output"/>
+		<Int32 name="system_state_byte_1" valueReference="23" causality="output"/>
+		<Int32 name="system_state_byte_2" valueReference="24" causality="output"/>
+		<Int32 name="system_state_byte_3" valueReference="25" causality="output"/>
+		<Int32 name="system_state_byte_4" valueReference="26" causality="output"/>
+		<Int32 name="X4_2" valueReference="27" causality="input" start="1"/>
+		<Int32 name="X4_4" valueReference="28" causality="input" start="1"/>
+		<Int32 name="X5_2" valueReference="29" causality="input" start="1"/>
+		<Int32 name="X5_4" valueReference="30" causality="input" start="1"/>
+		<Int32 name="X6_2" valueReference="31" causality="input" start="1"/>
+		<Int32 name="X6_4" valueReference="32" causality="input" start="1"/>
+		<Int32 name="X7_2" valueReference="33" causality="input" start="1"/>
+		<Int32 name="X7_4" valueReference="34" causality="input" start="1"/>
+		<Int32 name="inByte1" valueReference="35" causality="input" start="10"/>
+		<Int32 name="inByte2" valueReference="36" causality="input" start="10"/>
+	</ModelVariables>
+	<ModelStructure>
+		<Output valueReference="6"/>
+		<Output valueReference="7"/>
+		<Output valueReference="8"/>
+		<Output valueReference="9"/>
+		<Output valueReference="10"/>
+		<Output valueReference="11"/>
+		<Output valueReference="12"/>
+		<Output valueReference="13"/>
+		<Output valueReference="14"/>
+		<Output valueReference="15"/>
+		<Output valueReference="16"/>
+		<Output valueReference="17"/>
+		<Output valueReference="18"/>
+		<Output valueReference="19"/>
+		<Output valueReference="20"/>
+		<Output valueReference="21"/>
+		<Output valueReference="22"/>
+		<Output valueReference="23"/>
+		<Output valueReference="24"/>
+		<Output valueReference="25"/>
+		<Output valueReference="26"/>
+		<InitialUnknown valueReference="6"/>
+		<InitialUnknown valueReference="7"/>
+		<InitialUnknown valueReference="8"/>
+		<InitialUnknown valueReference="9"/>
+		<InitialUnknown valueReference="10"/>
+		<InitialUnknown valueReference="11"/>
+		<InitialUnknown valueReference="12"/>
+		<InitialUnknown valueReference="13"/>
+		<InitialUnknown valueReference="14"/>
+		<InitialUnknown valueReference="15"/>
+		<InitialUnknown valueReference="16"/>
+		<InitialUnknown valueReference="17"/>
+		<InitialUnknown valueReference="18"/>
+		<InitialUnknown valueReference="19"/>
+		<InitialUnknown valueReference="20"/>
+		<InitialUnknown valueReference="21"/>
+		<InitialUnknown valueReference="22"/>
+		<InitialUnknown valueReference="23"/>
+		<InitialUnknown valueReference="24"/>
+		<InitialUnknown valueReference="25"/>
+		<InitialUnknown valueReference="26"/>
+	</ModelStructure>
+</fmiModelDescription>

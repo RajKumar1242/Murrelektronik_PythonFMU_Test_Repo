@@ -1,0 +1,1 @@
+%windir%\System32\cmd.exe /C ""C:\Users\PULAPARTHI\AppData\Local\miniforge3\Scripts\activate.bat" base && set PYTHONPATH=D:\2025\Test\TestMVK && python -m fmpy.gui"

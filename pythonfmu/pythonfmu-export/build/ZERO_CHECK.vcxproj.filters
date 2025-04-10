@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\2025\Test\PythonFMU-master\PythonFMU-master\pythonfmu\pythonfmu-export\build\CMakeFiles\06561936b1f49cee24152b6f349eb049\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CC72CFA1-0F66-38F2-9EB8-7279AA04E152}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

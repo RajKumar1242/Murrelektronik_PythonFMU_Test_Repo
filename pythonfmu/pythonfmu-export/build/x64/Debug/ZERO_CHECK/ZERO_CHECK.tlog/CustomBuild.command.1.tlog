@@ -1,0 +1,10 @@
+^D:\2025\TEST\PYTHONFMU-MASTER\PYTHONFMU-MASTER\PYTHONFMU\PYTHONFMU-EXPORT\BUILD\CMAKEFILES\06561936B1F49CEE24152B6F349EB049\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/2025/Test/PythonFMU-master/PythonFMU-master/pythonfmu/pythonfmu-export -BD:/2025/Test/PythonFMU-master/PythonFMU-master/pythonfmu/pythonfmu-export/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/2025/Test/PythonFMU-master/PythonFMU-master/pythonfmu/pythonfmu-export/build/pythonfmu-export.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
